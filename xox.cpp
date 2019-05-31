@@ -29,7 +29,7 @@ int main()
       return 0;
     }
 
-    cout << "Enter the row you want to get." << endl << "->";
+    cout << "Enter the column you want to get." << endl << "->";
     cin >> colToGet;
     if(colToGet > COLUMNS || colToGet < 1)//ERRCHECK
     {
